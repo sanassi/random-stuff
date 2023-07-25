@@ -17,37 +17,47 @@ function App() {
       <div className="main">
         <label className='experience-label'>Experience</label>
         <div id='experiences' className="experiences">
+          <Experience duration={{'start' : 'Jan. 2024', 'end' : 'July 2024'}}
+                      title='Teaching Assistant'
+                      description={['Did stuff for students']}
+                      company='Epita'
+                      techs={['Java']}/>
           <Experience duration={{'start' : 'Sept. 2023', 'end' : 'Jan. 2024'}}
                       title='Backend Developer Intern'
-                      description='Did stuff in Java'
+                      description={['Did stuff in Java']}
                       company='Rakuten France'
                       techs={['Java']}/>
           <Experience duration={{'start' : 'Sept. 2022', 'end' : 'July 2023'}}
                       title='Teaching Assistant'
-                      description='Teaching computer science and programming to 1st year students.
-                      Writing, testing and deploying weekly programming practicals for students in C'
+                      description={['Teaching computer science and programming to 1st year students.',
+                      'Writing, testing and deploying weekly programming practicals for students in C#']}
                       company='Epita Paris'
                       techs={['C#']}/>
         </div>
+
         <label className='project-label'>Projects</label>
         <div id='projects' className="projects">
+          <ProjectInfo name="Tiger Compiler Backend"
+                       lang="C++"
+                       description={['Compiler for the Tiger Language.', '14 weeks project.']}
+                       link="https://assignments.lrde.epita.fr/tools/modern_compiler_implementation/first_editions.html" />
           <ProjectInfo name="Rash"
                        lang="C"
-                       description={["Posix Shell", "Written in C"]}
-                       link="https://github.com/sanassi/rash"
-          />
+                       description={['Shell Command Line Interpreter.', 'Written in C']}
+                       link="https://github.com/sanassi/rash" />
           <ProjectInfo name="Red Panda IDE"
                        lang="Java"
-                       description={["IDE for beginners", "Basic Features"]}
-                       link="https://github.com/sanassi/red-panda"
-          />
+                       description={['IDE for beginners',
+                         'Autocomplete', 'Syntax Highlighting']}
+                       link="https://github.com/sanassi/red-panda" />
           <ProjectInfo name="PixElArt"
                        lang="Javascript"
-                       description={["Pixel Art Editor", "poop"]}
-                       link="https://github.com/sanassi/pixElArt"
-          />
+                       description={['Pixel Art Editor', 'Built with Vanilla Javascript']}
+                       link="https://github.com/sanassi/pixElArt" />
         </div>
       </div>
+
+      <footer>Built by Sanassi Mory Cissé</footer>
     </div>
   );
 }
