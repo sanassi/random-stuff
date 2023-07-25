@@ -4,6 +4,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 export default function ProjectInfo(props) {
   let desc = props.description.map((elt) => <div>{elt}</div>);
+  let techStack = props.lang.map((elt => <div>{elt}</div>));
   return (
     <div className="projectInfo">
       <div className="top">
@@ -16,7 +17,7 @@ export default function ProjectInfo(props) {
         {desc}
       </div>
       <div className="project-lang">
-        <label>{props.lang}</label>
+        {techStack}
       </div>
     </div>
   );

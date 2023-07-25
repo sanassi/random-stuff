@@ -40,6 +40,14 @@
     color: inherit;
 }
 
+.project-lang {
+    display: flex;
+}
+
+.project-lang div {
+    padding-right: 1em;
+}
+
 .top {
     display: flex;
     flex: auto;
