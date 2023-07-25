@@ -9,7 +9,6 @@
     padding: 0.5em;
 }
 
-
 .experience:hover {
     background-color: #1a1c25;
     border-radius: 8px;
@@ -17,6 +16,8 @@
 
 .experience-duration {
     color: #949494;
+    width: 14em;
+    flex-wrap: nowrap;
 }
 
 .experience-title {
