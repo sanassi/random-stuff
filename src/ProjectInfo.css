@@ -1,0 +1,49 @@
+.projectInfo {
+    background-color: #1F2833;
+    border: #1F2833 solid 2px;
+    border-radius: 8px;
+    margin: 1em;
+    padding: 1em;
+
+    color: #C5C6C7;
+
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-name {
+    color: #66FCF1;
+    padding: 2px;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+.project-description {
+    width: fit-content;
+}
+
+.project-description ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.project-link {
+    width: fit-content;
+    height: fit-content;
+    border: #6b6b6b solid 2px;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.project-link a {
+    color: inherit;
+}
+
+.top {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}

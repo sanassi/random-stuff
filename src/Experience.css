@@ -1,0 +1,37 @@
+.experience {
+    color: #C5C6C7;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.experience-duration {
+    color: #949494;
+}
+
+.experience-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.experience-company {
+    color: #949494;
+}
+
+.experience-title {
+    color: #C5C6C7;
+}
+
+.experience-techs {
+    color: #66FCF1;
+}
+
+.experience-description {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    padding-left: 2em;
+}

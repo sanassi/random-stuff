@@ -1,0 +1,17 @@
+.App {
+  background-color: #0B0C10;
+}
+
+.projects {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.experiences {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: space-around;
+}
