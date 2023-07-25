@@ -4,13 +4,6 @@
 }
 
 .projects {
-  /*
-  display: flex;
-  flex: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-   */
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -37,6 +30,7 @@
 .main {
   margin-left: 500px; /* Same as the width of the sidebar */
   padding: 0 10px;
+  width: 50%;
 }
 
 .experience-label {

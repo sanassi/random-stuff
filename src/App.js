@@ -19,12 +19,12 @@ function App() {
         <div id='experiences' className="experiences">
           <Experience duration={{'start' : 'Jan. 2024', 'end' : 'July 2024'}}
                       title='Teaching Assistant'
-                      description={['Did stuff for students']}
+                      description={['']}
                       company='Epita'
                       techs={['Java']}/>
           <Experience duration={{'start' : 'Sept. 2023', 'end' : 'Jan. 2024'}}
                       title='Backend Developer Intern'
-                      description={['Did stuff in Java']}
+                      description={['']}
                       company='Rakuten France'
                       techs={['Java']}/>
           <Experience duration={{'start' : 'Sept. 2022', 'end' : 'July 2023'}}
