@@ -4,6 +4,11 @@
     flex: auto;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.experience:hover {
+    background-color: #1a1c25;
 }
 
 .experience-duration {

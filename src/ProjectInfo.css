@@ -32,7 +32,7 @@
 .project-link {
     width: fit-content;
     height: fit-content;
-    border: #6b6b6b solid 2px;
+    /*border: #6b6b6b solid 2px;*/
     border-radius: 4px;
     padding: 2px;
 }
