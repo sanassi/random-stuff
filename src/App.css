@@ -3,8 +3,6 @@
   padding: 2em;
 }
 
-
-
 .experiences {
   display: flex;
   flex: auto;
@@ -33,17 +31,6 @@
   padding: 0 10px;
   width: 50%;
 }
-
-.experience-label {
-  color: #C5C6C7;
-  font-size: 30px;
-}
-
-.project-label {
-  color: #C5C6C7;
-  font-size: 30px;
-}
-
 
 footer {
   color: #C5C6C7;

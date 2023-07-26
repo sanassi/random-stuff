@@ -1,0 +1,9 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-label {
+    color: #C5C6C7;
+    font-size: 30px;
+}
