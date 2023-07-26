@@ -9,7 +9,7 @@ export default function Experiences() {
                     title='Teaching Assistant (YAKA)'
                     description={['']}
                     company='Epita'
-                    techs={['Java']}/>
+                    techs={['Java', 'C++']}/>
         <Experience duration={{'start' : 'Sept. 2023', 'end' : 'Jan. 2024'}}
                     title='Backend Developer Intern'
                     description={['']}
@@ -17,7 +17,7 @@ export default function Experiences() {
                     techs={['Java']}/>
         <Experience duration={{'start' : 'Sept. 2022', 'end' : 'July 2023'}}
                     title='Teaching Assistant (ACDC)'
-                    description={['Teaching computer science and programming to 1st year students.',
+                    description={['Teaching Computer Science and Programming to first year students.',
                       'Writing, testing and deploying weekly programming practicals for students in C#']}
                     company='Epita Paris'
                     techs={['C#']}/>

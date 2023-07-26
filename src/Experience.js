@@ -1,6 +1,6 @@
 import './Experience.css'
 export default function Experience(props) {
-  let labels = props.techs.map((tech) => <label>{tech}</label>);
+  let techStack = props.techs.map((tech) => <div>{tech}</div>);
   let desc = props.description.map((elt) => <div>{elt}</div>);
   return (
     <div className="experience">
@@ -12,7 +12,7 @@ export default function Experience(props) {
         <label className='experience-company'>{props.company}</label>
         {desc}
         <div className='experience-techs'>
-          {labels}
+          {techStack}
         </div>
       </div>
     </div>

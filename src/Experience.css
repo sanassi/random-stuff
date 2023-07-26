@@ -35,6 +35,14 @@
 
 .experience-techs {
     color: #66FCF1;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    padding-right: 2em;
+}
+
+.experience-techs div {
+    padding-right: 1em;
 }
 
 .experience-description {
