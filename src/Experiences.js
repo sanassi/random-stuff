@@ -2,9 +2,9 @@ import Experience from "./Experience";
 
 export default function Experiences() {
   return (
-    <div>
+    <div id='experiences'>
       <label className='experience-label'>Experience</label>
-      <div id='experiences' className="experiences">
+      <div className="experiences">
         <Experience duration={{'start' : 'Jan. 2024', 'end' : 'July 2024'}}
                     title='Teaching Assistant (YAKA)'
                     description={['']}

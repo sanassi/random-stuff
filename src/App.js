@@ -6,6 +6,7 @@ import Links from "./Links";
 import SpotifyEmbed from "./SpotifyEmbed";
 import Projects from "./Projects";
 import Experiences from "./Experiences";
+import About from "./About";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Links />
       </div>
       <div className="main">
+        <About/>
         <Experiences/>
         <Projects/>
         <SpotifyEmbed src="https://open.spotify.com/embed/track/7ihVeKd4RjiZ3y12nDhPZO?utm_source=generator&theme=0"/>
@@ -25,5 +27,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

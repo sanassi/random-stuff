@@ -3,9 +3,9 @@ import ProjectInfo from "./ProjectInfo";
 import './Projects.css'
 export default function Projects() {
   return (
-    <div>
+    <div id='projects'>
       <label className='project-label'>Projects</label>
-      <div id='projects' className="projects">
+      <div className="projects">
         <ProjectInfo name="Tiger Compiler Backend"
                      lang={["C++"]}
                      description={['Compiler for the Tiger Language.', '14 weeks project.']}
