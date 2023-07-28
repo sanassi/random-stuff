@@ -1,5 +1,5 @@
 .side-nav-bar a {
-    color: #66FCF1;
+    color: var(--emph-text-color);
     display: inherit;
 
     padding-left: 2em;

@@ -1,5 +1,5 @@
 .spotify-label {
-    color: #C5C6C7;
+    color: var(--text-color);
     font-size: 30px;
 }
 

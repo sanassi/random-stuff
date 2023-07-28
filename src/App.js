@@ -1,5 +1,6 @@
 import './App.css';
 import './ProjectInfo'
+import './Global.css'
 import Me from "./Me";
 import SideNavBar from "./SideNavBar";
 import Links from "./Links";

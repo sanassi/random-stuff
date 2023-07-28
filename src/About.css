@@ -1,5 +1,5 @@
 .about {
-    color: #C5C6C7;
+    color: var(--text-color);
 }
 
 .about-label {

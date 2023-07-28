@@ -1,11 +1,11 @@
 .projectInfo {
-    background-color: #1F2833;
-    border: #1F2833 solid 2px;
+    background-color: var(--project-bg);
+    border: var(--project-bg) solid 2px;
     border-radius: 8px;
     margin: 1em;
     padding: 1em;
 
-    color: #C5C6C7;
+    color: var(--text-color);
 
     display: flex;
     flex: auto;
@@ -14,7 +14,7 @@
 }
 
 .project-name {
-    color: #66FCF1;
+    color: var(--emph-text-color);
     padding: 2px;
     font-size: 17pt;
     font-weight: bold;
@@ -41,7 +41,7 @@
 
 .project-lang div {
     padding-right: 1em;
-    color: #949494;
+    color: var(--secondary-text);
 }
 
 .top {

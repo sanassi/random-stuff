@@ -3,7 +3,7 @@
 }
 
 .my-name {
-    color: #C5C6C7;
+    color: var(--text-color);
     font-size: 40px;
     font-weight: bold;
     padding-bottom: 0.5em;

@@ -15,7 +15,7 @@
 }
 
 .experience-duration {
-    color: #949494;
+    color: var(--secondary-text);
     width: 14em;
     flex-wrap: nowrap;
 }
@@ -26,15 +26,15 @@
 }
 
 .experience-company {
-    color: #949494;
+    color: var(--secondary-text);
 }
 
 .experience-title {
-    color: #C5C6C7;
+    color: var(--text-color);
 }
 
 .experience-techs {
-    color: #66FCF1;
+    color: var(--emph-text-color);
     display: flex;
     flex: auto;
     flex-direction: row;

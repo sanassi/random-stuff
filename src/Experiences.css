@@ -6,12 +6,12 @@
 }
 
 .experience-label {
-    color: #C5C6C7;
+    color: var(--text-color);
     font-size: 30px;
 }
 
 .resume-link {
-    color: #66FCF1;
+    color: var(--emph-text-color);
 }
 
 .resume-link a {
