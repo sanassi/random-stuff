@@ -3,22 +3,15 @@
   padding: 2em;
 }
 
-.experiences {
-  display: flex;
-  flex: auto;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
 .side-bar {
   color: white;
-  height: 90%; /* Full-height: remove this if you want "auto" height */
-  width: 500px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 90%;
+  width: 500px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
   padding-top: 20px;
 
   display: flex;
@@ -35,4 +28,26 @@
 footer {
   color: #C5C6C7;
   text-align: center;
+}
+
+/* For screens smaller than 768px (e.g., mobile phones) */
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 1em; /* Reduce padding for small screens */
+  }
+
+  .side-bar {
+    order: -1; /* Move the sidebar to the beginning of the stacking order */
+    margin-bottom: 20px; /* Add some spacing between sidebar and main section */
+    position: static; /* Remove fixed positioning for small screens */
+    height: auto; /* Allow sidebar to adjust its height based on content */
+    max-width: 100%; /* Take full width on small screens */
+  }
+
+  .main {
+    order: 1; /* Move the main section after the sidebar in the stacking order */
+    max-width: 100%; /* Take full width on small screens */
+    width: auto;
+    margin: 0;
+  }
 }

@@ -1,4 +1,8 @@
 import Experience from "./Experience";
+import './Experiences.css'
+
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 export default function Experiences() {
   return (
@@ -9,7 +13,7 @@ export default function Experiences() {
                     title='Teaching Assistant (YAKA)'
                     description={['']}
                     company='Epita'
-                    techs={['Java', 'C++']}/>
+                    techs={['Java', 'C++', 'Javascript']}/>
         <Experience duration={{'start' : 'Sept. 2023', 'end' : 'Jan. 2024'}}
                     title='Backend Developer Intern'
                     description={['']}
@@ -21,6 +25,12 @@ export default function Experiences() {
                       'Writing, testing and deploying weekly programming practicals for students in C#']}
                     company='Epita Paris'
                     techs={['C#']}/>
+      </div>
+      <div className='resume-link'>
+        <a href={process.env.PUBLIC_URL + '/sanassi_cv_ing1_en.pdf'}>
+          Open Full Résumé
+          <OpenInNewIcon />
+        </a>
       </div>
     </div>
   );
