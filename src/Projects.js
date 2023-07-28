@@ -8,14 +8,14 @@ export default function Projects() {
       <div className="projects">
         <ProjectInfo name="Tiger Compiler Backend"
                      lang={["C++"]}
-                     description={['Compiler for the Tiger Language.', '14 weeks project.']}
+                     description={['Compiler for the Tiger Language.', '14 weeks group project.']}
                      link={{
                        "site": "other",
                        "url": "https://assignments.lrde.epita.fr/tools/modern_compiler_implementation/first_editions.html"
                      }} />
         <ProjectInfo name="Rash"
-                     lang={["C"]}
-                     description={['Shell Command Line Interpreter.']}
+                     lang={["C (C99)"]}
+                     description={['Shell Command Line Interpreter.', 'Conform to the Posix Standard.']}
                      link={{
                        "site":"gitlab",
                        "url":"https://gitlab.com/sanassi/rash"}} />
